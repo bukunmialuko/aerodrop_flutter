@@ -14,6 +14,13 @@ import 'package:flutter/widgets.dart';
 import 'package:flutter_svg/flutter_svg.dart' as _svg;
 import 'package:vector_graphics/vector_graphics.dart' as _vg;
 
+class $AssetsFontsGen {
+  const $AssetsFontsGen();
+
+  /// Directory path: assets/fonts/source_sans_pro
+  $AssetsFontsSourceSansProGen get sourceSansPro => const $AssetsFontsSourceSansProGen();
+}
+
 class $AssetsOnboardingGen {
   const $AssetsOnboardingGen();
 
@@ -54,16 +61,92 @@ class $AssetsSvgsGen {
   /// File path: assets/svgs/pick_up.svg
   SvgGenImage get pickUp => const SvgGenImage('assets/svgs/pick_up.svg');
 
+  /// File path: assets/svgs/slider.svg
+  SvgGenImage get slider => const SvgGenImage('assets/svgs/slider.svg');
+
   /// File path: assets/svgs/small.svg
   SvgGenImage get small => const SvgGenImage('assets/svgs/small.svg');
 
   /// List of all assets
-  List<SvgGenImage> get values => [deliveringTo, drone, large, medium, pickUp, small];
+  List<SvgGenImage> get values => [deliveringTo, drone, large, medium, pickUp, slider, small];
+}
+
+class $AssetsFontsSourceSansProGen {
+  const $AssetsFontsSourceSansProGen();
+
+  /// File path: assets/fonts/source_sans_pro/SourceCodePro-Black.ttf
+  String get sourceCodeProBlack => 'assets/fonts/source_sans_pro/SourceCodePro-Black.ttf';
+
+  /// File path: assets/fonts/source_sans_pro/SourceCodePro-BlackItalic.ttf
+  String get sourceCodeProBlackItalic => 'assets/fonts/source_sans_pro/SourceCodePro-BlackItalic.ttf';
+
+  /// File path: assets/fonts/source_sans_pro/SourceCodePro-Bold.ttf
+  String get sourceCodeProBold => 'assets/fonts/source_sans_pro/SourceCodePro-Bold.ttf';
+
+  /// File path: assets/fonts/source_sans_pro/SourceCodePro-BoldItalic.ttf
+  String get sourceCodeProBoldItalic => 'assets/fonts/source_sans_pro/SourceCodePro-BoldItalic.ttf';
+
+  /// File path: assets/fonts/source_sans_pro/SourceCodePro-ExtraBold.ttf
+  String get sourceCodeProExtraBold => 'assets/fonts/source_sans_pro/SourceCodePro-ExtraBold.ttf';
+
+  /// File path: assets/fonts/source_sans_pro/SourceCodePro-ExtraBoldItalic.ttf
+  String get sourceCodeProExtraBoldItalic => 'assets/fonts/source_sans_pro/SourceCodePro-ExtraBoldItalic.ttf';
+
+  /// File path: assets/fonts/source_sans_pro/SourceCodePro-ExtraLight.ttf
+  String get sourceCodeProExtraLight => 'assets/fonts/source_sans_pro/SourceCodePro-ExtraLight.ttf';
+
+  /// File path: assets/fonts/source_sans_pro/SourceCodePro-ExtraLightItalic.ttf
+  String get sourceCodeProExtraLightItalic => 'assets/fonts/source_sans_pro/SourceCodePro-ExtraLightItalic.ttf';
+
+  /// File path: assets/fonts/source_sans_pro/SourceCodePro-Italic.ttf
+  String get sourceCodeProItalic => 'assets/fonts/source_sans_pro/SourceCodePro-Italic.ttf';
+
+  /// File path: assets/fonts/source_sans_pro/SourceCodePro-Light.ttf
+  String get sourceCodeProLight => 'assets/fonts/source_sans_pro/SourceCodePro-Light.ttf';
+
+  /// File path: assets/fonts/source_sans_pro/SourceCodePro-LightItalic.ttf
+  String get sourceCodeProLightItalic => 'assets/fonts/source_sans_pro/SourceCodePro-LightItalic.ttf';
+
+  /// File path: assets/fonts/source_sans_pro/SourceCodePro-Medium.ttf
+  String get sourceCodeProMedium => 'assets/fonts/source_sans_pro/SourceCodePro-Medium.ttf';
+
+  /// File path: assets/fonts/source_sans_pro/SourceCodePro-MediumItalic.ttf
+  String get sourceCodeProMediumItalic => 'assets/fonts/source_sans_pro/SourceCodePro-MediumItalic.ttf';
+
+  /// File path: assets/fonts/source_sans_pro/SourceCodePro-Regular.ttf
+  String get sourceCodeProRegular => 'assets/fonts/source_sans_pro/SourceCodePro-Regular.ttf';
+
+  /// File path: assets/fonts/source_sans_pro/SourceCodePro-SemiBold.ttf
+  String get sourceCodeProSemiBold => 'assets/fonts/source_sans_pro/SourceCodePro-SemiBold.ttf';
+
+  /// File path: assets/fonts/source_sans_pro/SourceCodePro-SemiBoldItalic.ttf
+  String get sourceCodeProSemiBoldItalic => 'assets/fonts/source_sans_pro/SourceCodePro-SemiBoldItalic.ttf';
+
+  /// List of all assets
+  List<String> get values => [
+    sourceCodeProBlack,
+    sourceCodeProBlackItalic,
+    sourceCodeProBold,
+    sourceCodeProBoldItalic,
+    sourceCodeProExtraBold,
+    sourceCodeProExtraBoldItalic,
+    sourceCodeProExtraLight,
+    sourceCodeProExtraLightItalic,
+    sourceCodeProItalic,
+    sourceCodeProLight,
+    sourceCodeProLightItalic,
+    sourceCodeProMedium,
+    sourceCodeProMediumItalic,
+    sourceCodeProRegular,
+    sourceCodeProSemiBold,
+    sourceCodeProSemiBoldItalic,
+  ];
 }
 
 class Assets {
   const Assets._();
 
+  static const $AssetsFontsGen fonts = $AssetsFontsGen();
   static const $AssetsOnboardingGen onboarding = $AssetsOnboardingGen();
   static const $AssetsSvgsGen svgs = $AssetsSvgsGen();
 }

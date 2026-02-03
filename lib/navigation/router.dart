@@ -1,3 +1,4 @@
+import 'package:aerodrop/features/home/home_page.dart';
 import 'package:aerodrop/features/onboarding/onboarding_page.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
@@ -16,6 +17,11 @@ class AppRouter {
       debugLogDiagnostics: true,
       routes: [
         GoRoute(path: '/', builder: (context, state) => OnBoardingPage()),
+        GoRoute(
+          path: '/home',
+          name: 'home',
+          builder: (context, state) => HomePage(),
+        ),
       ],
     );
   }
