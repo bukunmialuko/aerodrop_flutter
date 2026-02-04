@@ -35,7 +35,7 @@ class SendPackageAddressWidget extends StatelessWidget {
                     fontFamily: 'SourceSansPro',
                     fontSize: 12.sp,
                     fontWeight: FontWeight.w400,
-                    color: Colors.black,
+                    color: AppLightColors.tertiary,
                   ),
                 ),
                 Text(
@@ -44,7 +44,7 @@ class SendPackageAddressWidget extends StatelessWidget {
                     fontFamily: 'SourceSansPro',
                     fontSize: 14.sp,
                     fontWeight: FontWeight.w500,
-                    color: Colors.black,
+                    color: AppLightColors.secondary,
                   ),
                 ),
               ],

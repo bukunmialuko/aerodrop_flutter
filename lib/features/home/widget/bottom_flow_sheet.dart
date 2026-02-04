@@ -25,9 +25,9 @@ class _BottomFlowSheetState extends State<BottomFlowSheet> {
     // Animate height per step
     final targetSize = switch (next) {
       SheetStep.sendPackage => 314 / 844,
-      SheetStep.chooseService => 0.4,
-      SheetStep.summary => 0.35,
-      SheetStep.loading => 0.3,
+      SheetStep.chooseService => 448 / 844,
+      SheetStep.summary => 404 / 844,
+      SheetStep.loading => 404 / 844,
     };
 
     sheetController.animateTo(
@@ -55,7 +55,6 @@ class _BottomFlowSheetState extends State<BottomFlowSheet> {
             duration: const Duration(milliseconds: 300),
             switchInCurve: Curves.easeOut,
             switchOutCurve: Curves.easeIn,
-            // child: _buildStep(step, scrollController),
             child: SingleChildScrollView(
               controller: scrollController,
               physics: NeverScrollableScrollPhysics(),
