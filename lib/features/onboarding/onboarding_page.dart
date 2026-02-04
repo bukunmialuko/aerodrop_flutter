@@ -118,7 +118,7 @@ class _OnBoardingPageState extends State<OnBoardingPage> {
                       maintainState: true,
                       child: ElevatedButton(
                         onPressed: () {
-                          context.pushNamed('home');
+                          context.goNamed('home');
                         },
                         style: ElevatedButton.styleFrom(
                           backgroundColor: AppLightColors.primary,

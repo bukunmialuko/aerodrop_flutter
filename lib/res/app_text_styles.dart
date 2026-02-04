@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class AppTextStyles {
-  static const String _fontFamily = 'SourceCodePro';
+  static const String _fontFamily = 'SourceSansPro';
 
   // Heading 1: 28/34.4
   static const TextStyle heading1 = TextStyle(

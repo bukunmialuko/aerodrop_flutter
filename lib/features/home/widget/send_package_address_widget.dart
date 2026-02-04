@@ -3,12 +3,13 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class SendPackageAddressWidget extends StatelessWidget {
-  final Widget icon;
+  final Widget? icon;
   final String label;
   final String value;
+
   const SendPackageAddressWidget({
     super.key,
-    required this.icon,
+    this.icon,
     required this.label,
     required this.value,
   });
@@ -17,8 +18,7 @@ class SendPackageAddressWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        icon,
-        SizedBox(width: 13.h),
+        if (icon != null) ...[icon!, SizedBox(width: 13.h)],
         Expanded(
           child: Container(
             padding: EdgeInsets.symmetric(horizontal: 12.w, vertical: 2.h),
@@ -32,7 +32,7 @@ class SendPackageAddressWidget extends StatelessWidget {
                 Text(
                   label,
                   style: TextStyle(
-                    fontFamily: 'SourceCodePro',
+                    fontFamily: 'SourceSansPro',
                     fontSize: 12.sp,
                     fontWeight: FontWeight.w400,
                     color: Colors.black,
@@ -41,9 +41,9 @@ class SendPackageAddressWidget extends StatelessWidget {
                 Text(
                   value,
                   style: TextStyle(
-                    fontFamily: 'SourceCodePro',
+                    fontFamily: 'SourceSansPro',
                     fontSize: 14.sp,
-                    fontWeight: FontWeight.w600,
+                    fontWeight: FontWeight.w500,
                     color: Colors.black,
                   ),
                 ),

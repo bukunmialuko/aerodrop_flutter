@@ -26,6 +26,7 @@ class _AppState extends State<App> {
           onGenerateTitle: (context) => 'Aerodrop',
           theme: ThemeData(
             useMaterial3: true,
+            fontFamily: 'SourceSansPro',
             colorScheme: ColorScheme.fromSeed(
               seedColor: AppLightColors.primary,
             ),
