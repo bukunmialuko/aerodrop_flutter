@@ -70,3 +70,25 @@ Please ensure you:
 - Flutter
 - Modern UI principles
 - Mobile-first design approach
+
+
+## 🤝 Contributing
+
+Contributions are welcome and appreciated!
+
+If you'd like to improve this project, please:
+
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m "Add amazing feature"`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+Please ensure your contributions:
+
+- Follow the existing code style
+- Do not break the UI design concept
+- Include clear commit messages
+- Keep changes focused and minimal
+
+For major changes, please open an issue first to discuss what you would like to change.
