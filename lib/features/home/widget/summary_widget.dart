@@ -18,7 +18,7 @@ class SummaryWidget extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.start,
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
-          SizedBox(height: 12.h),
+          // SizedBox(height: 12.h),
           Center(child: Assets.svgs.slider.svg()),
           Text('Summary', style: AppTextStyles.heading2),
           SizedBox(height: 12.h),
