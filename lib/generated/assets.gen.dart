@@ -74,72 +74,60 @@ class $AssetsSvgsGen {
 class $AssetsFontsSourceSansProGen {
   const $AssetsFontsSourceSansProGen();
 
-  /// File path: assets/fonts/source_sans_pro/SourceCodePro-Black.ttf
-  String get sourceCodeProBlack => 'assets/fonts/source_sans_pro/SourceCodePro-Black.ttf';
+  /// File path: assets/fonts/source_sans_pro/OFL.txt
+  String get ofl => 'assets/fonts/source_sans_pro/OFL.txt';
 
-  /// File path: assets/fonts/source_sans_pro/SourceCodePro-BlackItalic.ttf
-  String get sourceCodeProBlackItalic => 'assets/fonts/source_sans_pro/SourceCodePro-BlackItalic.ttf';
+  /// File path: assets/fonts/source_sans_pro/SourceSansPro-Black.ttf
+  String get sourceSansProBlack => 'assets/fonts/source_sans_pro/SourceSansPro-Black.ttf';
 
-  /// File path: assets/fonts/source_sans_pro/SourceCodePro-Bold.ttf
-  String get sourceCodeProBold => 'assets/fonts/source_sans_pro/SourceCodePro-Bold.ttf';
+  /// File path: assets/fonts/source_sans_pro/SourceSansPro-BlackItalic.ttf
+  String get sourceSansProBlackItalic => 'assets/fonts/source_sans_pro/SourceSansPro-BlackItalic.ttf';
 
-  /// File path: assets/fonts/source_sans_pro/SourceCodePro-BoldItalic.ttf
-  String get sourceCodeProBoldItalic => 'assets/fonts/source_sans_pro/SourceCodePro-BoldItalic.ttf';
+  /// File path: assets/fonts/source_sans_pro/SourceSansPro-Bold.ttf
+  String get sourceSansProBold => 'assets/fonts/source_sans_pro/SourceSansPro-Bold.ttf';
 
-  /// File path: assets/fonts/source_sans_pro/SourceCodePro-ExtraBold.ttf
-  String get sourceCodeProExtraBold => 'assets/fonts/source_sans_pro/SourceCodePro-ExtraBold.ttf';
+  /// File path: assets/fonts/source_sans_pro/SourceSansPro-BoldItalic.ttf
+  String get sourceSansProBoldItalic => 'assets/fonts/source_sans_pro/SourceSansPro-BoldItalic.ttf';
 
-  /// File path: assets/fonts/source_sans_pro/SourceCodePro-ExtraBoldItalic.ttf
-  String get sourceCodeProExtraBoldItalic => 'assets/fonts/source_sans_pro/SourceCodePro-ExtraBoldItalic.ttf';
+  /// File path: assets/fonts/source_sans_pro/SourceSansPro-ExtraLight.ttf
+  String get sourceSansProExtraLight => 'assets/fonts/source_sans_pro/SourceSansPro-ExtraLight.ttf';
 
-  /// File path: assets/fonts/source_sans_pro/SourceCodePro-ExtraLight.ttf
-  String get sourceCodeProExtraLight => 'assets/fonts/source_sans_pro/SourceCodePro-ExtraLight.ttf';
+  /// File path: assets/fonts/source_sans_pro/SourceSansPro-ExtraLightItalic.ttf
+  String get sourceSansProExtraLightItalic => 'assets/fonts/source_sans_pro/SourceSansPro-ExtraLightItalic.ttf';
 
-  /// File path: assets/fonts/source_sans_pro/SourceCodePro-ExtraLightItalic.ttf
-  String get sourceCodeProExtraLightItalic => 'assets/fonts/source_sans_pro/SourceCodePro-ExtraLightItalic.ttf';
+  /// File path: assets/fonts/source_sans_pro/SourceSansPro-Italic.ttf
+  String get sourceSansProItalic => 'assets/fonts/source_sans_pro/SourceSansPro-Italic.ttf';
 
-  /// File path: assets/fonts/source_sans_pro/SourceCodePro-Italic.ttf
-  String get sourceCodeProItalic => 'assets/fonts/source_sans_pro/SourceCodePro-Italic.ttf';
+  /// File path: assets/fonts/source_sans_pro/SourceSansPro-Light.ttf
+  String get sourceSansProLight => 'assets/fonts/source_sans_pro/SourceSansPro-Light.ttf';
 
-  /// File path: assets/fonts/source_sans_pro/SourceCodePro-Light.ttf
-  String get sourceCodeProLight => 'assets/fonts/source_sans_pro/SourceCodePro-Light.ttf';
+  /// File path: assets/fonts/source_sans_pro/SourceSansPro-LightItalic.ttf
+  String get sourceSansProLightItalic => 'assets/fonts/source_sans_pro/SourceSansPro-LightItalic.ttf';
 
-  /// File path: assets/fonts/source_sans_pro/SourceCodePro-LightItalic.ttf
-  String get sourceCodeProLightItalic => 'assets/fonts/source_sans_pro/SourceCodePro-LightItalic.ttf';
+  /// File path: assets/fonts/source_sans_pro/SourceSansPro-Regular.ttf
+  String get sourceSansProRegular => 'assets/fonts/source_sans_pro/SourceSansPro-Regular.ttf';
 
-  /// File path: assets/fonts/source_sans_pro/SourceCodePro-Medium.ttf
-  String get sourceCodeProMedium => 'assets/fonts/source_sans_pro/SourceCodePro-Medium.ttf';
+  /// File path: assets/fonts/source_sans_pro/SourceSansPro-Semibold.ttf
+  String get sourceSansProSemibold => 'assets/fonts/source_sans_pro/SourceSansPro-Semibold.ttf';
 
-  /// File path: assets/fonts/source_sans_pro/SourceCodePro-MediumItalic.ttf
-  String get sourceCodeProMediumItalic => 'assets/fonts/source_sans_pro/SourceCodePro-MediumItalic.ttf';
-
-  /// File path: assets/fonts/source_sans_pro/SourceCodePro-Regular.ttf
-  String get sourceCodeProRegular => 'assets/fonts/source_sans_pro/SourceCodePro-Regular.ttf';
-
-  /// File path: assets/fonts/source_sans_pro/SourceCodePro-SemiBold.ttf
-  String get sourceCodeProSemiBold => 'assets/fonts/source_sans_pro/SourceCodePro-SemiBold.ttf';
-
-  /// File path: assets/fonts/source_sans_pro/SourceCodePro-SemiBoldItalic.ttf
-  String get sourceCodeProSemiBoldItalic => 'assets/fonts/source_sans_pro/SourceCodePro-SemiBoldItalic.ttf';
+  /// File path: assets/fonts/source_sans_pro/SourceSansPro-SemiboldItalic.ttf
+  String get sourceSansProSemiboldItalic => 'assets/fonts/source_sans_pro/SourceSansPro-SemiboldItalic.ttf';
 
   /// List of all assets
   List<String> get values => [
-    sourceCodeProBlack,
-    sourceCodeProBlackItalic,
-    sourceCodeProBold,
-    sourceCodeProBoldItalic,
-    sourceCodeProExtraBold,
-    sourceCodeProExtraBoldItalic,
-    sourceCodeProExtraLight,
-    sourceCodeProExtraLightItalic,
-    sourceCodeProItalic,
-    sourceCodeProLight,
-    sourceCodeProLightItalic,
-    sourceCodeProMedium,
-    sourceCodeProMediumItalic,
-    sourceCodeProRegular,
-    sourceCodeProSemiBold,
-    sourceCodeProSemiBoldItalic,
+    ofl,
+    sourceSansProBlack,
+    sourceSansProBlackItalic,
+    sourceSansProBold,
+    sourceSansProBoldItalic,
+    sourceSansProExtraLight,
+    sourceSansProExtraLightItalic,
+    sourceSansProItalic,
+    sourceSansProLight,
+    sourceSansProLightItalic,
+    sourceSansProRegular,
+    sourceSansProSemibold,
+    sourceSansProSemiboldItalic,
   ];
 }
 

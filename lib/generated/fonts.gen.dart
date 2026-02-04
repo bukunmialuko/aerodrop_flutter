@@ -11,6 +11,6 @@
 class FontFamily {
   FontFamily._();
 
-  /// Font family: SourceCodePro
-  static const String sourceCodePro = 'SourceCodePro';
+  /// Font family: SourceSansPro
+  static const String sourceSansPro = 'SourceSansPro';
 }
